@@ -1,0 +1,218 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.logo{
+    max-width: 100px;
+    height: 100px;
+margin-bottom: px;
+padding-top: 0px;
+}
+.more-option{
+    max-width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0px;
+   
+}
+.nav-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #F5F7FA;
+    cursor: pointer;
+}
+
+@media(max-width:900px){
+    .nav-text{
+    display: none;
+    }
+    .main-nav-text{
+        padding-right:40px;
+    }
+    }
+.main-nav-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    max-width: auto;
+    color: #4B164C;
+
+}
+.navbar{
+background-color: #0A192F;
+border: none;
+height: 100px;
+margin: 0px;
+padding: 0px;
+}
+.underline{
+width: 70px;
+height: 3px;
+/* border: 2px solid #1C2541;; */
+margin:20px 710px;
+background-color: #0A192F
+}
+.text{
+    max-width: 250px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#444444;
+}
+body{
+    height: 100%;
+    width: 100%;
+background: linear-gradient(
+  45deg,
+  #dbeeff,  /* off-light blue */
+  #b3d9f8,  /* medium-light blue */
+  #79a7d3,  /* soft dark blue */
+  #f0faff   /* whitish-blue */
+);
+    
+     background-attachment: fixed;
+    background-repeat:no-repeat;
+    padding: 0px;
+    opacity: 0.9;
+}
+.member-image{
+    width: 150px;
+    height:auto;
+    border-radius: 50%;
+    align-items: center;
+    border: #0A192F 2px solid;
+    justify-content: center;
+    
+}
+
+.background{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E8F4F8;
+padding: 30px 0px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+    
+}
+.background:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.members{
+   
+    /* flex-wrap: wrap; */
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 40px 60px;
+margin: 40px 50px;
+padding: 30px;
+justify-content: center;
+align-items: center;
+}
+.social-media{
+    width:40px;
+height: auto;
+}
+.footer{
+    background-color: #1C2541;
+    height: 400px;
+    color: #F5F7FA;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-logo{
+    max-width: 100px;
+    height: auto;
+}
+.robotics-links{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding-left: 10px;
+    text-align:left;
+    gap:40px;
+    
+}
+.icons{
+    display: flex;
+    /* flex-direction: row; */
+    max-width:20px ;
+    height: auto;
+    cursor: pointer;
+}
+.footer-icons-part1{
+    display: flex;
+    gap:30px;
+    padding:0px 0px
+}
+hr{
+    color: silver;
+    border: none;
+    border-top: 1px solid black;
+    MARGIN-bottom: 0px;
+    height: 1px;
+    margin-top: 80px;
+}
+.footer-icons-part2{
+    display: flex;
+    gap:30px;
+    padding:0px 0px
+
+}
+.useful-links{
+    margin: 30px 50px;
+    font-weight: bold;
+    
+}
+.Community{
+     margin: 30px 50px;
+     font-weight: bold;
+}
+.Partner{
+      margin: 30px 50px;
+      font-weight: bold;
+}
+.footer-text{
+    font-weight: normal;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.footer-text:hover{
+    color: #00BFFF;
+}
+.footer--copyright-text{
+    font-weight: normal;
+    padding-top: 0px;
+}
